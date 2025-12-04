@@ -1,1 +1,16 @@
-/* Add your own styles */
+body {
+    background-color: #7ED348;
+    text-align: center;
+}
+
+table {
+    width: 60%;
+}
+
+table, th, td {
+    border: 1.5px solid white;
+    border-collapse: collapse;
+}
+tr:nth-child(even) {
+    background-color: #97F7F5;
+}
